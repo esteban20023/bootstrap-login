@@ -1,0 +1,59 @@
+body {
+    margin: 0%;
+    padding: 0;
+    background: url(https://cdn.pixabay.com/photo/2014/07/31/23/10/biker-407123_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+.container{
+    justify-items: end;
+    background-color: #afa8a8dc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+    max-width: 400px;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    ba
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+label {
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+  
+input {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 6px;
+    margin-bottom: 20px;
+}
+  
+button {
+    background-color: #ca2230;
+    border: none;
+    width: 150px;
+    justify-items: end;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #ca2230;
+}
+  
